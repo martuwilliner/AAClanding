@@ -1,0 +1,11 @@
+
+@import 'includes/color.css';
+@import 'includes/reset.css';
+@import 'includes/fonts.css';
+@import 'includes/flexbox.css';
+@import 'includes/helpers.css';
+
+@import 'components/header.css';
+@import 'components/footer.css';
+
+@import 'pages/home.css';
