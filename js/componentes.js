@@ -25,34 +25,39 @@ const participantes = {
 Vue.createApp(participantes).mount('#participantes')
 
 const countDown = {
-  data() {
-    return {
-      date:'',
-      end: '',
-    }
-  },
-  created() {
-    this.end = new Date(2021, 11, 9);
-  },
-  methods:{
+	data() {
+		return {
+      endDate:new Date(2021, 11, 9),
+      days: 0,
+      hours:0,
+      mins:0,
+      segs:0
 
-
-    diferences: () => {
-        const days = parseInt((this.end - this.date) / (1000 * 60 * 60 * 24));
-        const hours = parseInt((Math.abs(this.end - this.date) / (1000 * 60 * 60)) % 24);
-        const minutes = parseInt(
-          (Math.abs(this.end.getTime() - this.date.getTime()) / (1000 * 60)) % 60
-        );
-        const seconds = parseInt(
-          (Math.abs(this.end.getTime() - this.date.getTime()) / 1000) % 60
-        );
-        const count = [days,hours,minutes,seconds]
-        console.clear();
-        console.log("time")
-        console.log(count)
-        return count
+		};
+	},
+	created(){
+		setInterval(this.getDays, 1000);
+    setInterval(this.getHours, 1000);
+    setInterval(this.getMins, 1000);
+    setInterval(this.getSegs, 1000);
+	},
+	methods: {
+    getDays: function () {  
+      this.days = parseInt((this.endDate - new Date()) / (1000 * 60 * 60 * 24))
+    },
+    getHours: function (){
+      this.hours =parseInt((Math.abs(this.endDate - new Date()) / (1000 * 60 * 60)) % 24);
+    },
+    getMins: function (){
+      this.mins =parseInt(
+        (Math.abs(this.endDate.getTime() - new Date().getTime()) / (1000 * 60)) % 60
+      );
+    },
+    getSegs: function (){
+      this.segs = parseInt(
+        (Math.abs(this.endDate.getTime() - new Date().getTime()) / 1000) % 60
+      )
     }
   }
-  
 }
 Vue.createApp(countDown).mount('#date')
