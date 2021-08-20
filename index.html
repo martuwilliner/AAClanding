@@ -106,11 +106,64 @@
                 </figure>
             </article>
         </section>
-        <section></section>
-        <section></section>
+
+        <!-- participantes -->
+        <section id="participantes" class="lexend">
+            <h3 class="part">NUESTROS INVITADOS</h3>
+            <h2 class="part1">Disertantes y Panelistas</h2>
+            <section class="boxes">
+                <article class="bio lexend" :key="index" v-for="(item, index) in participantes" >
+                    <figure class="avatar">
+                        <img v-bind:src="item.avatar" alt="foto perfil">
+                    </figure>
+                    <h2>{{item.name}}</h2>
+                    <h3>{{item.items[0]}}</h3>
+                    <a @click.prevent="showPop(index)">Ver Más</a>
+                </article>
+
+                
+
+                <article class="pop Lexend" @click.prevent="showPop(index)" v-bind:id="'participante-'+index" :key="index" v-for="(item, index) in participantes">
+                    <section id="content" v-bind:class="item.theme">
+                        <section id="content-header">
+                            <h2 id="name">{{item.name}}</h2>
+                            <figure>
+                                <img id="avatar"  v-bind:src="item.avatar"  v-bind:alt="item.name">
+                            </figure>
+                        </section>
+                        <section id="content-body">
+                            <ul id="items">
+                                <li v-for="element in item.items">
+                                    {{element}}
+                                </li>
+                            </ul>
+
+                            <ul id="tags">
+                                <li v-for="element in item.tags">
+                                    {{element}}
+                                </li>
+                            </ul>
+
+                            <h3>
+                                <i class="fas fa-map-marker-alt"></i> 
+                                <span id="localtion">
+                                    {{item.localtion}}
+                                </span> 
+                            </h3>
+
+                            <a id="linkedin" v-bind:href="item.linkedin" target="_black">Ver LinkedIn</a>
+                            
+                        </section>
+                    </section>
+                </article>
+            </section>
+        <!-- fin participantes -->
+        </section>
     </main>
     <footer></footer>
 
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/vue@next"></script> <!-- dinamismo para los disertantes con VUE-->
+    <script src="js/componentes.js"></script>
 </body>
 </html>

@@ -1,0 +1,532 @@
+[
+    {
+      "name": "Dr. Juan Asensio González",
+      "items":["Profesor en Cirugía","Jefe de la División de Cirugía de Trauma y Cirugía de Cuidados Agudos","Director del Programa y Centro de Trauma", "Departamento de Cirugía Creighton"],
+      "tags": ["Universidad de Medicina de Creighton", "Universidad Medical Center"],
+      "localtion": "Creighton, Nebraska, USA",
+      "avatar": "assets/especialistas/Dr. Asensio.jpg",
+      "linkedin": "http://linkedin.com/",
+      "theme":"gris"
+    },
+    {
+        "name": "Dr. Deniz Balci",
+        "items":["Profesor en Cirugía", "Departamento de Cirugía y Trasplante","Director de la Sección de Trasplante Hepático"],
+        "tags": ["Escuela Universitaria de Medicina Ankara"],
+        "localtion": "Ankara, Turquía",
+        "avatar": "assets/especialistas/bALCI.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme":"crema"
+    },
+    {
+        "name": "Dr. Norihiro Kokudo" ,
+        "items":["Profesor en Cirugía","Jefe de la División de Cirugía Hepato-Biliar-Pancreática", "Jefe de la División de Trasplante y Organos Artificial", "Departamento de Cirugía"] ,
+        "tags":["Departamento de Cirugía", " Hospital Universitario de Tokio"] ,
+        "localtion": "Tokio, Japón" ,
+        "avatar": "assets/especialistas/Norihiro_Kokudo.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme":"crema"
+    },
+    {
+        "name": "Dr. Sanjay Bagaria",
+        "items": ["Profesor en cirugía", "Especialista en oncología","Consultor", "Sección de Cirugía General", "Departamento de Cirugía", "Centro para Medicina individualizada"],
+        "tags": ["Mayo Clinic"],
+        "localtion": "Jacksonville, Florida" ,
+        "avatar": "assets/especialistas/Sanjay Bagaria.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Italo F. Braghetto",
+        "items": ["Profesor en Cirugía","ExDirector del Departamento de Cirugía"],
+        "tags": ["Hospital Clínico Universidad de Chile"],
+        "localtion": "Santiago de Chile, Chile" ,
+        "avatar": "assets/especialistas/Dr. Braghetto.jpeg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Markus W. Büchler",
+        "items": ["Profesor en Cirugía","Director del Departamento de Cirugía General, Visceral y Trasplante"],
+        "tags": ["Hospital Universitario de Heidelberg"],
+        "localtion": "Heidelberg, Alemania" ,
+        "avatar": "assets/especialistas/Buchler.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme":"gris"
+    },
+    {
+        "name": "Dr. Herbert Chen",
+        "items": ["Profesor en Cirugía","Profesor en Ingeniería Biomédica","Jefe del Departamento de Cirugía"],
+        "tags": ["Boshell Diabetes Building"],
+        "localtion": "Birmingham, UK" ,
+        "avatar": "assets/especialistas/Herb-Chen.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme":"marron"
+    },
+    {
+        "name": "Dra. Calissia Clarke",
+        "items": ["Profesora Asistente de Cirugía, División de Oncología Quirúrgica","Cirujana general especialista en cirugía hepatobiliopancreática", "Coordinadora del Comité de Diversidad, Equidad e Inclusión, Asociación de Cirugía Académica"],
+        "tags": ["Facultad de Medicina de Wisconsin"],
+        "localtion": "Texas, USA" ,
+        "avatar": "assets/especialistas/Clarke.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "negro"
+    },
+    {
+        "name": "Dr. Sean P. Cleary",
+        "items": ["Profesor Consulto en Cirugía","Jefe de la División de Cirugía Hepatobiliar y Pancreática","Interim-Lead del Grupo de Enfermedades Hepatobiliares y Pancreáticas","Director de Programa de Fellowship en Cirugía Hepatobiliopancreática"],
+        "tags": ["Mayo Clinic Cancer Center"],
+        "localtion": "Nueva York, USA" ,
+        "avatar": "assets/especialistas/Sean Cleary.jpeg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Ricardo Cohen",
+        "items": ["Especialista en cirugía metabólica", "Coordinador, Centro de Obesidad y Diabetes", "ExPresidente de la IFSO-LAC"],
+        "tags": ["Hospital Alemano Oswaldo Cruz (HAOC)"],
+        "localtion": "San Pablo, Brasil" ,
+        "avatar": "assets/especialistas/Cohen.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Xavier de Aretxabala",
+        "items": ["Cirujano","ExDirector del Departamento de Cirugía", "Profesor Titular de Cirugía","Fuerza Aérea de Chile"],
+        "tags": ["Universidad de Chile", "Clínica Alemana de Santiago"],
+        "localtion": "Santiago de Chile, Chile" ,
+        "avatar": "assets/especialistas/de Aretxabala.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Fernando de la Portilla",
+        "items": ["Jefe de Unidad de Coloproctología","Profesor Titular de Cirugía"],
+        "tags": ["Universidad de Sevilla","Hospital Universitario Virgen del Rocío", "Instituto de Biomedicina de Sevilla/CSIC"],
+        "localtion": "España" ,
+        "avatar": "assets/especialistas/de la Portilla.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Eduardo de Souza Martins Fernandes",
+        "items": ["Profesor del Departamento de Cirugía","Cirujano general especialista en cirugía hepatobiliopancreática"],
+        "tags": ["Universidad Federal de Río de Janeiro"],
+        "localtion": "Brasil" ,
+        "avatar": "assets/especialistas/desouza.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "crema"
+    },
+    {
+        "name": "Dr. Juan P. Dueñas",
+        "items": ["Cirujano endócrino", "Profesor Adscrito de Cirugía"],
+        "tags": ["Clínica el Rosario", "Hospital Pablo Tobón Uribe"],
+        "localtion": "Medellin, Colombia" ,
+        "avatar": "assets/especialistas/Dr. Dueñas.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. E. Fernando Elli",
+        "items": ["Cirujano general especialista en cirugía bariátrica mininvasiva"],
+        "tags": ["Mayo Clinic"],
+        "localtion": "Jaksonville, USA" ,
+        "avatar": "assets/especialistas/Elli.png",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dra. Cristina Ferrone",
+        "items": ["Cirujana especialista en cirugía gastrointestinal", "Directora del MGH Programa de Cirugía Hepática"],
+        "tags": ["Hospital General Massachusetts"],
+        "localtion": "Massachusetts, USA" ,
+        "avatar": "assets/especialistas/Dra. Ferrone.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Luke Funk",
+        "items": ["Cirujano general", "Especialista en cirugía bariátrica", "Director de Investigación MIS"],
+        "tags": ["William S. Middleton Memorial Veteran Hospital"],
+        "localtion": "Wisconsin, USA" ,
+        "avatar": "assets/especialistas/Frunk.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Ankush Gosain",
+        "items": ["Profesor de Cirugía y Pediatría","Vice-Coordinador de Asuntos Académicos" ],
+        "tags": ["Universidad de Tennessee"],
+        "localtion": "Tennessee, USA" ,
+        "avatar": "assets/especialistas/Ankush Gosain.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Andrés Hanssen",
+        "items": ["Cirujano","Especialista en cirugía mínimamente invasiva y paredes abdominales", "Jefe de Cirugía, Clinica Iberoamericana"],
+        "tags": ["Universidad Metropolitana de Barranquilla"],
+        "localtion": "Barranquilla, Colombia" ,
+        "avatar": "assets/especialistas/Dr. Hanssen.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "negro"
+    },
+    {
+        "name": "Dr. Santiago Horgan",
+        "items": ["Profesor y Jefe de Cirugía Mínimamente Invasiva","Director del Instituto de Cirugía Bariátrica y Metabólica"],
+        "tags": ["UC San Diego Health"],
+        "localtion": "USA" ,
+        "avatar": "assets/especialistas/Dr. Horgan.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "negro"
+    },
+    {
+        "name": "Dr. William R. Jarngin",
+        "items": ["Cirujano","Especialista en cirugía hepatobiliopancreática", "Jefe del Servicio de Cirugía Hepatopancreatobiliar"],
+        "tags": ["Memorial Sloan Kettering Cancer Center"],
+        "localtion": "Nueva York, USA" ,
+        "avatar": "assets/especialistas/Dr. Jarnagin.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "crema"
+    },
+    {
+        "name": "Dr. Michael L. Kendrick",
+        "items": ["Profesor de Cirugía","Jefe de la División de Cirugía Hepatobiliar y Páncreas"],
+        "tags": ["Mayo Clinic College of Medicine"],
+        "localtion": "Rochester, MN, USA" ,
+        "avatar": "assets/especialistas/Dr. Kendrick.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Sundeep Keswani",
+        "items": ["Profesor en cirugía pediatría y obstetricia","Especialista en cirugía fetal", "Director quirúrgico de Investigación Científica Básica"],
+        "tags": ["Hospital de Niños de Texas", "Facultad de Medicina de Baylor"],
+        "localtion": "Texas, USA" ,
+        "avatar": "assets/especialistas/Keswani.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "marron"
+    },
+    {
+        "name": "Dr. Eugene Kim",
+        "items": ["Profesor de Cirugía y Pediatría","Médico Clínico Académico", "Director Asociado del Programa de Fellowship en Cirugía Peditrica"],
+        "tags": ["Escuela de Medicina Keck de la Universidad del Sudeste de California", "Instituto de Cáncer y Enfermedades de la Sangre"],
+        "localtion": "Califonia, USA" ,
+        "avatar": "assets/especialistas/Eugene Kim.jpeg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "negro"
+    },
+    {
+        "name": "Dr. Davide Lomanto",
+        "items": ["Profesor del Departamento de Cirugía", "Consultor Senior", "Jefe de la División de Trasplante y Organos Artificial"],
+        "tags": ["Universidad de Cirugía Cluster", "Khoo Teck Puat Centro de Entrenamiento de Cirugía Avanzada"],
+        "localtion": "República de Singapur" ,
+        "avatar": "assets/especialistas/Davide Lomanto.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "negro"
+    },
+    {
+        "name": "Dr. Franscico López Kostner",
+        "items": ["Cirujano general", "Consultor Senior", "Especialista en coloproctología", "Jefe de Unidad de Coloproctología"],
+        "tags": ["Clínica las Condes S.A"],
+        "localtion": "Santiago de Chile, Chile" ,
+        "avatar": "assets/especialistas/Lopez Kostner.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "negro"
+    },
+    {
+        "name": "Dr. Marcel A. Machado",
+        "items": ["Cirujano general", "Especialista en cirugía hepatobiliopancreática"],
+        "tags": ["Hospital Sirio Libanes"],
+        "localtion": "San Pablo, Brasil" ,
+        "avatar": "assets/especialistas/Machado.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "crema"
+    },
+    {
+        "name": "Dr. Hari Nathan",
+        "items": ["Cirujano general", "Especialista en oncología", "Profesor Asistente de Cirugía, División de Cirugía Hepatobiliopancreática", "Tesorero, Asociación de Cirugía Académica"],
+        "tags": ["Facultad de Medicina de la Universidad de Michigan"],
+        "localtion": "Michigan, USA" ,
+        "avatar": "assets/especialistas/Hari Nathan.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "crema"
+    },
+    {
+        "name": "Dr. Rodrigo Oliva Pérez",
+        "items": ["Cirujano general", "Especialista en coloproctología y oncología"],
+        "tags": ["Instituto Angelita & Joaquim Gama"],
+        "localtion": "San Pablo, Brasil" ,
+        "avatar": "assets/especialistas/Dr. Oliva Perez.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "negro"
+    },
+    {
+        "name": "Dr. Sergio Roll",
+        "items": ["Doctor en el área de cirugía", "Profesor adjunto y Coordinador del Grupo de Cirugía de Paredes abdominales", "Coordinador del centro de hernia del Hospital Alemán Oswaldo Cruz  "],
+        "tags": ["Hospital Alemán Oswaldo Cruz"],
+        "localtion": "Brasil" ,
+        "avatar": "assets/especialistas/Dr. ROLL.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "negro"
+    },
+    {
+        "name": "Dr. Raúl Rosenthal",
+        "items": ["Profesor de cirugía", "Jefe del Departamento de Cirugía General"],
+        "tags": ["Cleveland Clinic Weston, Florida", "Lerner College of Medicine at CWRU"],
+        "localtion": "USA" ,
+        "avatar": "assets/especialistas/rOSENTHAL.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "crema"
+    },
+    {
+        "name": "Dr. Richard D. Schulick",
+        "items": ["Profesor de cirugía", "Especialista en cirugía oncológica", "Director del Centro Oncológico", "Jefe de Cirugía"],
+        "tags": ["Universidad de Colorado"],
+        "localtion": "Colorado,USA" ,
+        "avatar": "assets/especialistas/DrRichardSchulick.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "negro"
+    },
+    {
+        "name": "Dr. Ashok R. Shaha",
+        "items": ["Cirujano general", "Especialista en cirugía tiroidea", "Jefe en Cirugía de Cabeza y Cuello y Oncología"],
+        "tags": ["Memorial Sloan Kettering Cancer Center"],
+        "localtion": "USA" ,
+        "avatar": "assets/especialistas/Shaha.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Shailesh V. Shrikhande",
+        "items": ["Jefe de la División de Cirugía Oncológica","Profesor de la División de Cirugía Oncológica", "Jefe del Servicio de Cirugía Gastrointestinal y Hepatobiliopancreática"],
+        "tags": ["Tata Memorial Centre"],
+        "localtion": "India" ,
+        "avatar": "assets/especialistas/sHRIKHANDE.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Gianfranco Silecchia",
+        "items": ["Director UOC del Centro de Excelencia de Cirugía General y Bariátrica", "Miembro del Comité de Educación y Entrenamiento EAES", "Past President de la Sociedad Italiana de Cirugía Endoscópica"],
+        "tags": ["Sapienza Università di Roma - Polo Pontino"],
+        "localtion": "Roma, Italia" ,
+        "avatar": "assets/especialistas/sileccia.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Ricardo Terra",
+        "items": ["Cirujano especialista en cirugía torácica", "Jefe del Equipo de Cirugía Torácica", "Profesor (MS-5) de Cirugía Torácica"],
+        "tags": ["Facultad de Medicina de la Universidad de San Pablo", "Instituto de Cáncer del Estado de San Pablo"],
+        "localtion": "San Pablo, Brasil" ,
+        "avatar": "assets/especialistas/Dr. Terra.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "crema"
+    },
+    {
+        "name": "Dra. Paula A. Ugalde",
+        "items": ["Profesora en Clínica Médica","Cirujana especialista en cirugía torácica", "Coordinadora de Investigación en Oncología Torácica, IUCPQ"],
+        "tags": ["Universidad Laval"],
+        "localtion": "Quebec, Canadá" ,
+        "avatar": "assets/especialistas/Dra. Ugalde.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "crema"
+    },
+    {
+        "name": "Dr. Michael A. Valente",
+        "items": ["Profesor Asociado de Cirugía","Departamento de Cirugía Colorrectal"],
+        "tags": ["Cleveland Clinic", "Instituto de Enfermedades Digestivas y Cirugía"],
+        "localtion": "Ohio, USA",
+        "avatar": "assets/especialistas/Dr. Valente.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Jean N. Vauthey",
+        "items": ["Jefe de la Sección de Cirugía Hepatobiliopancreática", "Departamento de Cirugía Oncológica, División de Cirugía"],
+        "tags": ["Universidad de Texas MD Anderson Cancer Center"],
+        "localtion": "Houston, USA",
+        "avatar": "assets/especialistas/Vauthey.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. R. Matthew Walsh",
+        "items": ["Cirujano", "Especialista en cirugía hepatobiliopancreática"],
+        "tags": ["Cleveland Clinic"],
+        "localtion": "Florida, USA",
+        "avatar": "assets/especialistas/walsh.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Prasad G. Yyer",
+        "items": ["Profesor en Medicina", "Gastroenterólogo especialista en enfermedades esofagogástricas y técnicas mini-invasivas", "Director del Grupo de Intereses Gastroesofágicos GIH"],
+        "tags": ["Mayo Clinic"],
+        "localtion": "Rochester, USA",
+        "avatar": "assets/especialistas/Prasad-Iyer.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    }
+
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
