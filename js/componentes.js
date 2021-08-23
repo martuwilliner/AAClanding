@@ -8,7 +8,7 @@ const participantes = {
     // GET request using fetch with async/await
     const response = await fetch("../data/participantes.json");
     const data = await response.json();
-    this.participantes = data;
+    this.participantes = data.slice(-8);
     },
     methods: {
         showPop(pop) {
@@ -19,7 +19,18 @@ const participantes = {
           }else{
             target.classList.remove("active");
           }
+        },
+        showAll: async function(){
+          const response = await fetch("../data/participantes.json");
+          const data = await response.json();
+          this.participantes = data;
+        },
+
+        showLess: async function(){
+          this.participantes = this.participantes.slice(-8);
         }
+
+
     }
   }
 Vue.createApp(participantes).mount('#participantes')

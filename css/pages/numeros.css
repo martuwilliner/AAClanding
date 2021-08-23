@@ -1,0 +1,44 @@
+#numeros{
+    width: 70vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color:#0A1429;
+    height: 25vh;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+#numeros article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#0A1429;
+    width: 33%;
+    position: relative;
+}
+
+#numeros article:not(#numeros article:last-child):before{
+
+    content: '';
+    position: absolute;
+    top: 25%;
+    right: -.25rem;
+    width:.05rem;
+    height: 50%;
+    background-color: #CFDDFC;
+
+}
+
+#numeros article h2{
+    color:#CFDDFC;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom:1rem;
+}
+#numeros article h3{
+    color:#8CA5D9;
+    text-align: center;
+    font-size: 1rem;
+}

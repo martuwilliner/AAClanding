@@ -1,0 +1,64 @@
+#preguntas{
+    width: 70vw;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 0;
+    align-items: center;
+}
+#preguntas h2{
+    width:100%;
+    color: var(--primary);
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
+#preguntas details{
+    width: 70%;
+    padding: .5rem;
+    border-top: .1rem solid rgba(206, 206, 206, 0.5);
+    border-bottom: .1rem solid rgba(206, 206, 206, 0.5);
+    transition: all .3s ease-in-out;
+    
+}
+#preguntas details summary{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 1rem 0;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+#preguntas details summary:hover{
+    color: var(--primary);
+}
+/* #preguntas details[open] p{
+    
+} */
+#preguntas article.unico{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 1rem 0;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+    align-items: center;
+}
+#preguntas article.unico a{
+    width: 30%;
+    text-decoration: none;
+    color: snow;
+    background-color: var(--place);
+    text-align: center;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+
+}
+#preguntas article.unico h3{
+    width: 35%;
+}

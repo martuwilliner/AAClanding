@@ -32,7 +32,7 @@
     <main>
         <section id="asociaciones" class="df rw wp jcc lexend">
             <article id="left1" class="df cl wp aic jcc">
-                <h3><i class="far fa-bell"></i>Fecha: 9 Noviembre</h3>
+                <h3><i class="far fa-bell"></i>Fecha: 9 al 14 de Noviembre</h3>
                 <h2 class="sb">Asociación Argentina De Cirugía</h2>
 
                 <p class="light">EL EVENTO COMIENZA EN</p>
@@ -144,33 +144,57 @@
                                 </li>
                             </ul>
 
-                            <h3>
-                                <i class="fas fa-map-marker-alt"></i> 
-                                <span id="localtion">
-                                    {{item.localtion}}
-                                </span> 
-                            </h3>
+                            <article id="content-footer">
+                                <h3>
+                                    <i class="fas fa-map-marker-alt"></i> 
+                                    <span id="localtion">
+                                        {{item.localtion}}
+                                    </span> 
+                                </h3>
 
-                            <a id="linkedin" v-bind:href="item.linkedin" target="_black">Ver LinkedIn</a>
-                            
+                                <a id="linkedin" v-bind:href="item.linkedin" target="_black">Ver Linkedin</a>
+                            </article>
                         </section>
                     </section>
                 </article>
             </section>
+            <a class="all" href="#" @Click.prevent="participantes.length == 8 ? showAll() : showLess()">{{participantes.length == 8 ? 'Show All' : 'show Less'}}</a>
         <!-- fin participantes -->
         </section>
 
         <!-- preguntas frecuentes -->
 
-        <section id="preguntas">
+        <section id="preguntas" class="lexend">
             <h2>Preguntas Frecuentes</h2>
-
-            <article>¿Puedo participar del evento desde mi teléfono? <i class="fas fa-plus"></i></article>
-            <article>¿Cuándo se habilitará el ingreso al evento? <i class="fas fa-plus"></i></article>
-            <article>¿Cómo ingreso al evento? <i class="fas fa-plus"></i></article>
-            <article>¿Necesito una contraseña para ingresar al evento? <i class="fas fa-plus"></i></article>
-            <article>¿Quiénes pueden participar del evento? <i class="fas fa-plus"></i></article>
-            <article>¿Tendré que participar con mi cámara y micrófono durante el evento? <i class="fas fa-plus"></i></article>
+            <details>
+                <summary>¿Puedo participar del evento desde mi teléfono? <i class="fas fa-plus"></i></summary>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+            </details>
+            <details>
+                <summary>¿Cuándo se habilitará el ingreso al evento? <i class="fas fa-plus"></i></summary>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+            </details>
+            <details>
+                <summary>¿Cómo ingreso al evento? <i class="fas fa-plus"></i></summary>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+            </details>
+            <details>
+                <summary>¿Necesito una contraseña para ingresar al evento?<i class="fas fa-plus"></i></summary>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+            </details>
+            <details>
+                <summary>¿Quiénes pueden participar del evento? <i class="fas fa-plus"></i></summary>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+            </details>
+            <details>
+                <summary>¿Tendré que participar con mi cámara y micrófono durante el evento? <i class="fas fa-plus"></i></summary>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+            </details>
+            <details >
+                <summary>¿Tendré que participar con mi cámara y micrófono durante el evento? <i class="fas fa-plus"></i></summary>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+            </details>
+            
             <article class="unico">Tengo problemas para registrarme o para ingresar al evento. ¿Dónde puedo obtener ayuda?
                 <a href=""> Abrir chat con Soporte</a>
                 <h3>O chateá al +54 9 11 2765-8267</h3>

@@ -60,7 +60,7 @@
         "localtion": "Birmingham, UK" ,
         "avatar": "assets/especialistas/Herb-Chen.jpg",
         "linkedin": "http://linkedin.com/",
-        "theme":"marron"
+        "theme":"gris"
     },
     {
         "name": "Dra. Calissia Clarke",
@@ -69,7 +69,7 @@
         "localtion": "Texas, USA" ,
         "avatar": "assets/especialistas/Clarke.jfif",
         "linkedin": "http://linkedin.com/",
-        "theme": "negro"
+        "theme": "gris"
     },
     {
         "name": "Dr. Sean P. Cleary",
@@ -101,7 +101,7 @@
     {
         "name": "Dr. Fernando de la Portilla",
         "items": ["Jefe de Unidad de Coloproctología","Profesor Titular de Cirugía"],
-        "tags": ["Universidad de Sevilla","Hospital Universitario Virgen del Rocío", "Instituto de Biomedicina de Sevilla/CSIC"],
+        "tags": ["Universidad de Sevilla","Hospital Universitario Virgen del Rocío"],
         "localtion": "España" ,
         "avatar": "assets/especialistas/de la Portilla.jfif",
         "linkedin": "http://linkedin.com/",
@@ -168,7 +168,7 @@
         "localtion": "Barranquilla, Colombia" ,
         "avatar": "assets/especialistas/Dr. Hanssen.jpg",
         "linkedin": "http://linkedin.com/",
-        "theme": "negro"
+        "theme": "gris"
     },
     {
         "name": "Dr. Santiago Horgan",
@@ -177,7 +177,7 @@
         "localtion": "USA" ,
         "avatar": "assets/especialistas/Dr. Horgan.jfif",
         "linkedin": "http://linkedin.com/",
-        "theme": "negro"
+        "theme": "gris"
     },
     {
         "name": "Dr. William R. Jarngin",
@@ -204,7 +204,7 @@
         "localtion": "Texas, USA" ,
         "avatar": "assets/especialistas/Keswani.jpg",
         "linkedin": "http://linkedin.com/",
-        "theme": "marron"
+        "theme": "crema"
     },
     {
         "name": "Dr. Eugene Kim",
@@ -213,7 +213,7 @@
         "localtion": "Califonia, USA" ,
         "avatar": "assets/especialistas/Eugene Kim.jpeg",
         "linkedin": "http://linkedin.com/",
-        "theme": "negro"
+        "theme": "gris"
     },
     {
         "name": "Dr. Davide Lomanto",
@@ -222,7 +222,7 @@
         "localtion": "República de Singapur" ,
         "avatar": "assets/especialistas/Davide Lomanto.jpg",
         "linkedin": "http://linkedin.com/",
-        "theme": "negro"
+        "theme": "gris"
     },
     {
         "name": "Dr. Franscico López Kostner",
@@ -231,7 +231,7 @@
         "localtion": "Santiago de Chile, Chile" ,
         "avatar": "assets/especialistas/Lopez Kostner.jfif",
         "linkedin": "http://linkedin.com/",
-        "theme": "negro"
+        "theme": "gris"
     },
     {
         "name": "Dr. Marcel A. Machado",
@@ -258,7 +258,7 @@
         "localtion": "San Pablo, Brasil" ,
         "avatar": "assets/especialistas/Dr. Oliva Perez.jfif",
         "linkedin": "http://linkedin.com/",
-        "theme": "negro"
+        "theme": "gris"
     },
     {
         "name": "Dr. Sergio Roll",
@@ -267,7 +267,7 @@
         "localtion": "Brasil" ,
         "avatar": "assets/especialistas/Dr. ROLL.jfif",
         "linkedin": "http://linkedin.com/",
-        "theme": "negro"
+        "theme": "gris"
     },
     {
         "name": "Dr. Raúl Rosenthal",
@@ -285,7 +285,7 @@
         "localtion": "Colorado,USA" ,
         "avatar": "assets/especialistas/DrRichardSchulick.jpg",
         "linkedin": "http://linkedin.com/",
-        "theme": "negro"
+        "theme": "gris"
     },
     {
         "name": "Dr. Ashok R. Shaha",
@@ -312,7 +312,7 @@
         "localtion": "Roma, Italia" ,
         "avatar": "assets/especialistas/sileccia.jpg",
         "linkedin": "http://linkedin.com/",
-        "theme": "gris"
+        "theme": "crema"
     },
     {
         "name": "Dr. Ricardo Terra",

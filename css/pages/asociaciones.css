@@ -1,0 +1,112 @@
+#asociaciones{
+    width: 100%;
+    background-color: var(--bg);
+    height: 75vh;
+    margin-bottom: .5rem;
+    padding: 1rem;
+}   
+
+#left1{
+    width: calc(50% - 1rem)
+}
+
+#left1 > h2{
+    width: 50%;
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+}
+
+#left1 > h3{
+    width: 50%;
+    color:var(--place);
+    background-color:var(--input);
+    text-align: center;
+    border-radius: 1rem;
+    padding: .25rem;
+    margin-bottom: 1rem;
+}
+
+#left1 > p{
+    width: 50%;
+    font-size: 1rem;
+    letter-spacing:0.3rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+}
+
+
+#left1 > h3 i{
+    color: snow;
+    background-color: var(--primary);
+    border-radius: 1rem;
+    padding: .2rem .6rem;
+}
+
+#left1 ul#date{
+    width: 50%;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+#left1 ul#date li{
+    color: var(--primary);
+    width: 3rem; 
+}
+
+#left1 ul#date li > span{
+    background-color: snow;
+    border: 0.05rem solid var(--place);
+    padding: .25rem;
+    border-radius: 0.25rem;
+    margin-bottom: .25rem;
+
+}
+
+#left1 ul#date li > h3{
+    color: var(--primary);    
+}
+
+
+#left2{
+    position: relative;
+    flex: 1 0 auto;
+    overflow:hidden;
+}
+
+#left2 figure{
+    position: absolute;
+    overflow: hidden;
+    /*background-color: var(--primary);*/
+    box-shadow: 0 0 3rem .05rem rgba(48, 112, 130, 0.3);
+    border-radius: .5rem;
+}
+
+#left2 figure img{
+    max-width: 100%;
+}
+
+#left2 figure:first-child{
+    right: 5%;
+    top: 5%;
+    width: 65%;
+    height: 75%;
+    position: absolute;
+}
+
+#left2 figure:last-child{
+    left: 5%;
+    bottom: 5%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+
+#left2::before{
+    content:url("../../assets/grid.png");
+    right: 0rem;
+    bottom: 0rem;
+    position: absolute;
+    z-index: 0;
+    
+}

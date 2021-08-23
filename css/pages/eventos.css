@@ -1,0 +1,50 @@
+#evento{
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+#evento article{
+    width: 50%;
+   
+}
+
+#evento article h2{
+    width: 75%;
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    text-align: left;
+
+}
+
+#evento article h3{
+    width: 75%;
+    font-size: 1rem;
+    letter-spacing:0.3rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+#evento article p{
+    width: 75%;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+#evento article a{
+    align-self: start;
+}
+
+#evento figure{
+    width: 30%;
+    height: calc(75% - 1rem);
+    overflow: hidden;
+    box-shadow: 0 0 3rem .05rem rgba(48, 112, 130, 0.3);
+}
+
+#evento figure img {
+    max-width:100%;
+    border-radius: .5rem;
+    overflow: hidden;
+}
