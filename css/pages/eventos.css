@@ -40,11 +40,11 @@
     width: 30%;
     height: calc(75% - 1rem);
     overflow: hidden;
-    box-shadow: 0 0 3rem .05rem rgba(48, 112, 130, 0.3);
 }
 
 #evento figure img {
     max-width:100%;
     border-radius: .5rem;
     overflow: hidden;
+    box-shadow: 0 0 3rem .05rem rgba(48, 112, 130, 0.3);
 }
