@@ -57,7 +57,10 @@
     padding: .5rem;
     border-radius: 1rem;
     margin-right: 1rem;
-
+    transition: all .3s ease-in-out;
+}
+#preguntas article.unico a:hover{
+    background-color: var(--primary);
 }
 #preguntas article.unico h3{
     width: 35%;
