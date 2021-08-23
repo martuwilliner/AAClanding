@@ -6,7 +6,7 @@ const participantes = {
     },
     async created() {
     // GET request using fetch with async/await
-    const response = await fetch("../data/participantes.json");
+    const response = await fetch("/data/participantes.json");
     const data = await response.json();
     this.participantes = data.slice(-8);
     },
@@ -21,7 +21,7 @@ const participantes = {
           }
         },
         showAll: async function(){
-          const response = await fetch("../data/participantes.json");
+          const response = await fetch("/data/participantes.json");
           const data = await response.json();
           this.participantes = data;
         },
