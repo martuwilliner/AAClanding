@@ -45,3 +45,41 @@ footer .up{
 #down p{
     margin-bottom: 1rem;
 }
+
+
+@media screen and (min-width:320px) and (max-width: 480px){
+    footer .up{
+        width: 75%;
+        text-align: center;
+        background-color: var(--primary);
+        color: snow;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+    #down{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #down *:not(#dowm #social){
+        margin-bottom: 1rem;
+    }
+
+    #dowm #social{
+        margin: 1rem 0rem;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column wrap;
+        align-items: center;
+        overflow: visible;
+        padding: 1rem;
+    }
+}

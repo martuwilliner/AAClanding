@@ -65,3 +65,45 @@
 #preguntas article.unico h3{
     width: 35%;
 }
+
+
+@media screen and (min-width:320px) and (max-width: 480px){
+
+    #preguntas{
+        width: 100vw;
+        background-color:white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem 0;
+        align-items: center;
+    }
+    #preguntas h2{
+        font-size:1.5rem;
+    }
+    #preguntas article.unico{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        list-style: none;
+        padding: 1rem 0;
+        color: rgb(105, 105, 105);
+        cursor: pointer;
+        align-items: center;
+    }
+    #preguntas article.unico a{
+        width: 100%;
+        text-decoration: none;
+        color: snow;
+        background-color: var(--place);
+        text-align: center;
+        padding: 1.2rem;
+        border-radius: .5rem;
+        margin: 1rem 0;
+        transition: all .3s ease-in-out;
+    }
+    #preguntas article.unico h3{
+        width: 100%;
+    }
+}
