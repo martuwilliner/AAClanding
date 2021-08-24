@@ -339,3 +339,124 @@ a.all{
     padding: 1rem .75rem;
     border-radius: .25rem;
 }
+
+@media screen and (min-width:768px) and (max-width: 1024px){
+
+}
+
+@media screen and (min-width:320px) and (max-width: 480px){
+   
+.bio{
+    width:100%;
+    height: 15vh;
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom:2.5vh;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 3rem .05rem rgba(48, 112, 130, 0.3);
+    border-radius:1rem;
+}  
+
+
+.bio figure{
+    width: 10vh;
+    height: 10vh;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.bio figure img{
+    max-height: 100%;
+}
+
+.bio .desc{
+    width: calc(100% - 10vh);
+    padding: 1rem;
+}
+
+.bio h2{
+    color: var(--primary);
+    font-size:.75rem;
+    width: 100%;
+    text-align: left;
+    margin: .8rem 0;
+}
+
+.bio h3{
+    margin-bottom: 1rem;
+    font-size:.75rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.bio a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--primary);
+    background-color: var(--input);
+    width:75%;
+    padding: .5rem;
+    border-radius: .5rem;
+    transition: all .3s ease;
+    font-size: .8rem;
+}
+.bio a:hover{
+    text-decoration: underline;
+}
+
+    .pop.active #content{
+        width: 80vw;
+        min-height: 50vh;
+        background-color: snow;
+        border-radius: 1rem;
+        overflow: hidden;
+        padding-bottom: 1rem ;
+        z-index: 1000;
+    }
+
+    #content-body #tags li{
+        padding: .75rem .5rem;
+        flex: 0 1 auto;
+        margin-right: 0rem;
+        margin-bottom: .5rem;
+        border-radius: .25rem;
+        font-size: .75rem;
+    }
+
+    #content-header #name{
+        font-size:1.5rem;
+        width: 50%;
+        font-weight: 600;
+        z-index: 1;
+    }
+    #content-header figure::before{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        top: 0;
+        left:0;
+        z-index:1;
+    }
+    #content-footer{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    #content-footer h3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+}

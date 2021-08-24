@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Asociación Argentina de Cirugía</title>
+    <title>91° Congreso Argentino de Cirugía</title>
 </head>
 <body>
     <header class="df rw wp jcsa">
@@ -30,10 +30,10 @@
         </nav>
     </header>
     <main>
-        <section id="asociaciones" class="df rw wp jcc lexend">
+        <section id="asociaciones" class="df rw wp jcc aic lexend">
             <article id="left1" class="df cl wp aic jcc">
-                <h3><i class="far fa-bell"></i>Fecha: 9 al 14 de Noviembre</h3>
-                <h2 class="sb">Asociación Argentina De Cirugía</h2>
+                <h3 class="df wp d-jcc d-aic "><i class="far fa-bell"></i> <span>Fecha: 9 al 14 de Noviembre</span> </h3>
+                <h2 class="sb">91° Congreso Argentino de Cirugía</h2>
 
                 <p class="light">EL EVENTO COMIENZA EN</p>
                 <ul id="date" class=" df rw wp jcsb">
@@ -68,7 +68,7 @@
             </article>
 
         </section>
-        <section id="evento" class="df rw wp jcc lexend">
+        <section id="evento" class="df d-rw d-wp d-jcc lexend">
             <article class="df cl wp ais jcc">
                 <h3>SOBRE EL EVENTO</h3>
                 <h2>Acerca del Congreso </h2>
@@ -101,7 +101,7 @@
         <!-- grilla foto parcial -->
         <section id="grilla">
             <article>
-                <figure>
+                <figure> 
                     <img src="assets/tabla.png" alt="">
                 </figure>
             </article>
@@ -116,9 +116,11 @@
                     <figure class="avatar">
                         <img v-bind:src="item.avatar" alt="foto perfil">
                     </figure>
-                    <h2>{{item.name}}</h2>
-                    <h3>{{item.items[0]}}</h3>
-                    <a @click.prevent="showPop(index)">Ver Más</a>
+                    <section class="desc">
+                        <h2>{{item.name}}</h2>
+                        <h3>{{item.items[0]}}</h3>
+                        <a @click.prevent="showPop(index)">Ver Más</a>
+                    </section>
                 </article>
 
                 

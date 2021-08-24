@@ -5,7 +5,6 @@
 
 #evento article{
     width: 50%;
-   
 }
 
 #evento article h2{
@@ -47,4 +46,118 @@
     border-radius: .5rem;
     overflow: hidden;
     box-shadow: 0 0 3rem .05rem rgba(48, 112, 130, 0.3);
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px){
+
+    #evento{
+        height: auto;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        padding: 1rem; 
+    }
+    
+    #evento article{
+        width: calc(100% - 1rem);
+        padding: 1rem; 
+    }
+    
+    #evento article h2{
+        width: 75%;
+        font-size: 1.75rem;
+        color: var(--primary);
+        margin-bottom: 1.5rem;
+        text-align: left;
+    
+    }
+    
+    #evento article h3{
+        width: 75%;
+        font-size: 1rem;
+        letter-spacing:0.3rem;
+        color: var(--primary);
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+    
+    #evento article p{
+        width: 75%;
+        text-align: justify;
+        margin-bottom: 1rem;
+    }
+    
+    #evento article a{
+        align-self: start;
+    }
+    
+    #evento figure{
+        width: 50%;
+        height: calc(75% - 1rem);
+        overflow: hidden;
+        margin-right: 2rem;
+    }
+    
+    #evento figure img {
+        max-width:100%;
+        border-radius: .5rem;
+        overflow: hidden;
+        box-shadow: 0 0 3rem .05rem rgba(48, 112, 130, 0.3);
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px){
+
+    #evento{
+        height: auto;
+        margin: 0rem 0rem 1rem;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    #evento article{
+        width: calc(100% - 1rem);
+       
+    }
+    
+    #evento article h2{
+        width: 100%;
+        font-size: 2.5rem;
+        color: var(--primary);
+        margin-bottom: 1.5rem;
+        text-align: center;   
+    }
+    
+    #evento article h3{
+        width: 100%;
+        font-size: 1rem;
+        letter-spacing:0.3rem;
+        color: var(--primary);
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    
+    #evento article p{
+        width: calc(100% - 1rem);
+        text-align: justify;
+        margin-bottom: 1rem;
+    }
+    
+    #evento article a{
+        align-self: center;
+    }
+    
+    #evento figure{
+        width: calc(100% - 1rem);
+        height: calc(75% - 1rem);
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+    
+    #evento figure img {
+        max-width:100%;
+        border-radius: .5rem;
+        overflow: hidden;
+        box-shadow: 0 0 3rem .05rem rgba(48, 112, 130, 0.3);
+    }
 }
