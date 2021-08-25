@@ -107,3 +107,21 @@
         width: 100%;
     }
 }
+
+@media screen and (min-width: 1280px) and (max-width:1920px){
+    #preguntas article.unico a{
+        width: 40%;
+        text-decoration: none;
+        color: snow;
+        background-color: var(--place);
+        text-align: center;
+        font-size: .8rem;
+        padding: .5rem;
+        border-radius: 1rem;
+        margin-right: 1rem;
+        transition: all .3s ease-in-out;
+    }
+    #preguntas article.unico h3{
+        display: none;
+    }
+}

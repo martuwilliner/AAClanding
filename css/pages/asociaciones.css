@@ -41,6 +41,7 @@
     background-color: var(--primary);
     border-radius: 1rem;
     padding: .2rem .6rem;
+    margin-right: .5rem;
 }
 
 #left1 ul#date{
@@ -204,5 +205,13 @@
     #left1 ul#date{
     width: 100%;
     height: 3rem;
+    }
+}
+@media screen and (min-width: 1280px) and (max-width:1920px){
+    #left1 > h3{
+        width: 55%;
+    }
+    #left1 > h3 i{
+        margin-right: .5rem;
     }
 }

@@ -83,7 +83,7 @@ header nav#menu a:not(.btn):hover{
     }
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px) and (max-width:1920px){
     header figure{
         width:20%;
     }
@@ -91,6 +91,8 @@ header nav#menu a:not(.btn):hover{
         display: flex;
         position: relative;
         z-index: 0;
-        width: 30%;
+        width: 50%;
     }
+    
 }
+/* min 1280 max 1750 */
