@@ -130,7 +130,9 @@
 @media screen and (min-width:768px) and (max-width: 1024px){
     #asociaciones{
           width: 100%;
-          background-color: var(--bg);
+          background-image: url("../../assets/banner1.jpg");
+            background-size: cover;
+            background-position: center center;
           height: 30vh;
           margin-bottom: .5rem;
           padding: 1rem;
@@ -176,7 +178,10 @@
   @media screen and (min-width: 320px) and (max-width: 414px){
     #asociaciones{
         width: 100%;
-        background-color: var(--bg);
+        /* background-color: var(--bg); */
+        background-image: url("../../assets/banner1.jpg");
+        background-size: cover;
+        background-position: center center;
         height: 60vh;
         margin-bottom: .5rem;
         padding: 1rem;
