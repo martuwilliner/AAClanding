@@ -1,7 +1,7 @@
 #asociaciones{
     width: 100%;
     /* background-color: var(--pr); */
-    background-image: url(/assets/banner1.jpg);
+    background-image: url("../../assets/banner1.jpg");
     background-size: cover;
     background-position: center center;
     height: 75vh;
