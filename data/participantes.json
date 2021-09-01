@@ -179,6 +179,15 @@
       "theme": "gris"
   },
   {
+    "name": "Dr. Henrik Petrowsky",
+    "items": ["Profesor catedrático de Cirugía", "Vicepresidente, Departamento de Cirugía y Trasplantes", "Jefe de División de Cirugía Hepatobiliar y Pancreática"],
+    "tags": ["Centro de trasplantes y HPB suizo de Zúric", "Hospital Universitario de Zúrich"],
+    "localtion": "Zúrich, Suiza" ,
+    "avatar": "assets/especialistas/Henrik Petrowsky.jfif",
+    "linkedin": "http://linkedin.com/",
+    "theme": "gris"
+    },
+  {
       "name": "Dr. William R. Jarngin",
       "items": ["Cirujano","Especialista en cirugía hepatobiliopancreática", "Jefe del Servicio de Cirugía Hepatopancreatobiliar"],
       "tags": ["Memorial Sloan Kettering Cancer Center"],
@@ -366,7 +375,139 @@
       "avatar": "assets/especialistas/Prasad-Iyer.jpg",
       "linkedin": "http://linkedin.com/",
       "theme": "gris"
-  }]
+  },
+  {
+    "name": "Dr. Alessandro Lunardi",
+    "items": ["Radiólogo especialista en intervencionismo", "Director Médico de 1er Nivel en la U.O. de Radiología Intervencionista"],
+    "tags": ["Hospital Cisanello", "Hospital Universitario de Pisa"],
+    "localtion": "Pisa, Italia" ,
+    "avatar": "assets/especialistas/Alessandro Lunaardi.jfif",
+    "linkedin": "http://linkedin.com/",
+    "theme": "gris"
+  },
+  {
+    "name": "Dr. Ricardo Fretes",
+    "items": ["Médico Cirujano y Coloproctólogo"],
+    "tags": ["Miembro Titular de la Comisión Directiva del Círculo Paraguayo de Médicos"],
+    "localtion": "Paraguay" ,
+    "avatar": "assets/especialistas/Dr. Fretes.jpg",
+    "linkedin": "http://linkedin.com/",
+    "theme": "crema" 
+  },
+  {
+    "name": "Dr. Andrés Salom",
+    "items": ["Médico cirujano", "Profesor Agregado de Clínica Quirúrgica", "Presidente de la Sociedad de Cirugía del Uruguay"],
+    "tags": ["Hospital de Clínicas"],
+    "localtion": "Montevideo, Uruguay" ,
+    "avatar": "assets/especialistas/dR. sALOM.jfif",
+    "linkedin": "http://linkedin.com/",
+    "theme": "gris" 
+  },
+  {
+    "name": "Dr. Luca Stocchi",
+    "items": ["Cirujano especialista en cirugía colorrectal y laparascópica"],
+    "tags": ["División de Cirugía de Colon y Recto", "Mayo Clinic"],
+    "localtion": "Jacksonville, Florida, USA" ,
+    "avatar": "assets/especialistas/dR. sTOCCHI.jpg",
+    "linkedin": "http://linkedin.com/",
+    "theme": "gris" 
+  },
+  {"name": "Dr. José I. Bilbao Jaureguizar ",
+    "items": ["Doctor en Medicina", "Unidad de Radiología Vascular Intervencionista"],
+    "tags": ["Clínica Universidad de Navarra "],
+    "localtion": "Pamplona, España" ,
+    "avatar": "assets/especialistas/Dr_Bilbao.jfif",
+    "linkedin": "http://linkedin.com/",
+    "theme": "gris"
+    },
+    {
+    "name": "Dr. Nicolás Goldaracena",
+    "items": ["Profesor Asociado de Cirugía", "División de Trasplante de Órganos Abdominales y Cirugía Hepatobiliopancreática", "Director Quirúrgico del Programa de Donante Vivo en Trasplante Hepático"],
+    "tags": ["University of Virginia Health System"],
+    "localtion": "Virginia, USA" ,
+    "avatar": "assets/especialistas/Goldaracena.jpg",
+    "linkedin": "http://linkedin.com/",
+    "theme": "gris"
+    },
+    {
+        "name": "Dr. Norihiro Kokudo" ,
+        "items":["Profesor en Cirugía","Jefe de la División de Cirugía Hepato-Biliar-Pancreática", "Jefe de la División de Trasplante y Organos Artificial", "Departamento de Cirugía"] ,
+        "tags":["Departamento de Cirugía", " Hospital Universitario de Tokio"] ,
+        "localtion": "Tokio, Japón" ,
+        "avatar": "assets/especialistas/Norihiro_Kokudo.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme":"crema"
+    },
+    {
+        "name": "Dr. Juan L. Poggio",
+        "items": ["Profesor catedrático de Cirugía", "Cirugía de colon y recto"],
+        "tags": ["Temple University Hospital", "Jeanes Hospital", "Facultad de Medicina Lewis Katz"],
+        "localtion": "Filadelfia, USA" ,
+        "avatar": "assets/especialistas/Juan_Poggio_profile.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Flavio Malcher",
+        "items": ["Médico cirujano", "Director del Programa de Cirugía de Paredes Abdominales"],
+        "tags": ["Montefiore Health System"],
+        "localtion": "New York, USA" ,
+        "avatar": "assets/especialistas/Malcher.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Steven P. Bowers",
+        "items": ["Cirujano general especialista en cirugía esofagogástrica"],
+        "tags": ["Mayo Clinic"],
+        "localtion": "Jacksonville, Florida, USA" ,
+        "avatar": "assets/especialistas/Steven Bowers.jpg",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    },
+    {
+        "name": "Dr. Roberto Taruselli",
+        "items": ["Profesor agregado de Cirugía","Cirujano General especializado en cirugía oncológica digestiva"],
+        "tags": ["Hospital Universitario de Clínicas"],
+        "localtion": "Montevideo, Uruguay" ,
+        "avatar": "assets/especialistas/Taruselli.jfif",
+        "linkedin": "http://linkedin.com/",
+        "theme": "gris"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
