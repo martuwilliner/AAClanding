@@ -33,17 +33,19 @@ const participantes = {
 
     }
   }
+
+
 Vue.createApp(participantes).mount('#participantes')
 
 const countDown = {
 	data() {
 		return {
-      endDate:new Date(2021, 11, 9),
-      days: 0,
+      endDate:new Date(2021, 10, 9),  
+      days: 0,  
       hours:0,
       mins:0,
-      segs:0
-
+      segs:0,
+      event: false
 		};
 	},
 	created(){
@@ -51,6 +53,7 @@ const countDown = {
     setInterval(this.getHours, 1000);
     setInterval(this.getMins, 1000);
     setInterval(this.getSegs, 1000);
+    setInterval(this.setEvent, 1000);
 	},
 	methods: {
     getDays: function () {  
@@ -68,7 +71,57 @@ const countDown = {
       this.segs = parseInt(
         (Math.abs(this.endDate.getTime() - new Date().getTime()) / 1000) % 60
       )
+    },
+    setEvent: function (){
+      this.event = this.days > 0
     }
+
   }
 }
-Vue.createApp(countDown).mount('#date')
+
+Vue.createApp(countDown).mount('#asociaciones')
+
+
+const countDownHeader = {
+	data() {
+		return {
+      endDate:new Date(2021, 10, 9),  
+      days: 0,  
+      hours:0,
+      mins:0,
+      segs:0,
+      event: false
+		};
+	},
+	created(){
+		setInterval(this.getDays, 1000);
+    setInterval(this.getHours, 1000);
+    setInterval(this.getMins, 1000);
+    setInterval(this.getSegs, 1000);
+    setInterval(this.setEvent, 1000);
+	},
+	methods: {
+    getDays: function () {  
+      this.days = parseInt((this.endDate - new Date()) / (1000 * 60 * 60 * 24))
+    },
+    getHours: function (){
+      this.hours =parseInt((Math.abs(this.endDate - new Date()) / (1000 * 60 * 60)) % 24);
+    },
+    getMins: function (){
+      this.mins =parseInt(
+        (Math.abs(this.endDate.getTime() - new Date().getTime()) / (1000 * 60)) % 60
+      );
+    },
+    getSegs: function (){
+      this.segs = parseInt(
+        (Math.abs(this.endDate.getTime() - new Date().getTime()) / 1000) % 60
+      )
+    },
+    setEvent: function (){
+      this.event = this.days > 0
+    }
+
+  }
+}
+
+Vue.createApp(countDownHeader).mount('#menu')

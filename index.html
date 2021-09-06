@@ -26,7 +26,8 @@
             <a href="/programa">Programa</a>
             <a href="/disertantes">Disertantes</a>
             <a href="/ayuda">Ayuda</a>
-            <a href="https://martuwilliner.github.io/inscripcionAAC/" target="_blank" class="btn primary">Inscribirse</a>
+            <a v-if="event" href="https://martuwilliner.github.io/inscripcionAAC/" target="_blank" class="btn primary">Inscribirse al evento</a>
+            <a v-else href="https://aac.raxar.com.ar" target="_blank" class="btn primary">Ingresar al evento</a>
         </nav>
     </header>
     <main>
@@ -54,7 +55,8 @@
                         <h3>Seg</h3>
                     </li>
                 </ul>
-                <a href="https://martuwilliner.github.io/inscripcionAAC/" target="_blank" class="btn primary">Inscribirse al evento</a>
+                <a v-if="event" href="https://martuwilliner.github.io/inscripcionAAC/" target="_blank" class="btn primary">Inscribirse al evento</a>
+                <a v-else href="https://aac.raxar.com.ar" target="_blank" class="btn primary">Ingresar al evento</a>
             </article>
 
             <!-- <article id="left2">
