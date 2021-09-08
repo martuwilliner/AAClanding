@@ -5,7 +5,7 @@ header{
     width: 100vw;
     max-height: 10vh;
     background-color:snow;
-    z-index: 10;
+    z-index: 2500;
 }
 header figure{
     width:calc( 50% - 1rem);
